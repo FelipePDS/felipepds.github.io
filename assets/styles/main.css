@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --colorBackground: #F0F0F7;
+    --colorBackgroundCard: #FFF;
+    --colorTextPrimary: #292931;
+
+    font-size: 60%;
+}
+
+body {
+    background-color: var(--colorBackground);
+    color: var(--colorTextPrimary);
+    font-size: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body,
+input,
+button,
+textarea,
+select {
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: var(--colorTextBase);
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.standard-margin {
+    margin: .7rem;
+}
+
+.standard-padding {
+    padding: .7rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+@media (max-width: 860px) {
+    .main-container {
+        width: 90%;
+    }
+
+    .column-mobile {
+        display: flex;
+        flex-direction: column !important;
+    }
+}
