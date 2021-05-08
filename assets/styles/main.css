@@ -89,6 +89,10 @@ h3 {
     text-align: center;
 }
 
+.container+.container {
+    margin-top: 2rem;
+}
+
 @media (max-width: 860px) {
     .main-container {
         width: 90%;
