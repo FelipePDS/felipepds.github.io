@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/font-awesome/fontawesome-all.min.css">
 
+    <!-- ANIMATIONS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="icon" href="https://avatars.githubusercontent.com/u/64941387?v=4">
 
     <title>Felipe Pinto Da Silva</title>
@@ -25,26 +28,52 @@
         BREVE SOBRE
 
         TECNOLOGIAS
+
         SOBRE
+
         PROJETOS
+
         APRENDIZADO
 
         FOOTER
     -->
 
     <div class="main-container center column">
-        <div class="main-top-container center row column-mobile">
+        <div class="main-top-container center row column-mobile container">
             <div class="avatar-content center column">
-                <img class="standard-margin" width="250px" src="https://avatars.githubusercontent.com/u/64941387?v=4" alt="FelipePDS Avatars">
-                <h1 class="text-align-center">Felipe Pinto Da Silva</h1>
+                <img class="standard-margin" width="250px" src="https://avatars.githubusercontent.com/u/64941387?v=4" title="Felipe Pinto Da Silva" alt="FelipePDS Avatars" data-aos="zoom-in">
+                <h1 class="text-align-center" data-aos="zoom-in">Felipe Pinto Da Silva</h1>
             </div>
 
             <div class="about-content-main-top column center">
                 <div class="contact-content row standard-margin">
-                    <a href="" class="linkedin-button"><i class="fab fa-linkedin"></i></a>
-                    <a href="" class="twitter-button"><i class="fab fa-twitter"></i></a>
-                    <a href="" class="gmail-button"><i class="fa fa-envelope"></i></a>
-                    <a href="" class="github-button"><i class="fab fa-github"></i></a>
+                    <a 
+                        href="https://www.linkedin.com/in/felipe-p-da-silva-a55b891ba/" 
+                        class="linkedin-button"
+                        target="_blank"
+                    >
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a 
+                        href="https://twitter.com/FelipePintoDaS1" 
+                        class="twitter-button"
+                        target="_blank"
+                    >
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a 
+                        href="mailto:felipepdasilva66@gmail.com?subject=Hello" 
+                        class="gmail-button"
+                    >
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <a 
+                        href="https://github.com/FelipePDS" 
+                        class="github-button"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github"></i>
+                    </a>
                 </div>
 
                 <div class="short-description-content standard-margin standard-padding">
@@ -52,9 +81,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="skills-container container">
+            
+        </div>
     </div>
 
     <!-- SCRIPTS -->
     <script src="assets/scripts/scripts.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
