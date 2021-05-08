@@ -1,13 +1,65 @@
+html, body {
+    height: auto;
+    padding: 2rem 0;
+}
+
 .main-container {
-    
+    max-width: 72rem;
 }
 
 .main-container .main-top-container {
-    max-width: 72rem;
+    width: 100%;
 }
 
 .main-container .main-top-container .avatar-content {
     margin-right: 3rem;
+}
+
+.main-container .main-top-container .avatar-content img {
+    margin-bottom: 1.5rem;
+
+    border: 1px var(--colorBorderPrimary) solid;
+    border-radius: 50%;
+}
+
+.main-container .main-top-container .avatar-content h1 {
+    font-weight: 1000;
+    font-size: 2.6rem;
+}
+
+.main-container .main-top-container .about-content-main-top .contact-content a {
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+
+    color: var(--colorTextPrimaryLight);
+    /* border: 1px var(--colorBorderPrimary) solid; */
+
+    transition: .3s;
+}
+
+.main-container .main-top-container .about-content-main-top .contact-content a:hover {
+    border-radius: 1.5rem;
+}
+
+.main-container .main-top-container .about-content-main-top .contact-content a+a {
+    margin-left: 1rem;
+}
+
+.main-container .main-top-container .about-content-main-top .contact-content a.linkedin-button {
+    background-color: #0A66C2;
+}
+.main-container .main-top-container .about-content-main-top .contact-content a.twitter-button {
+    background-color: #1DA1F2;
+}
+.main-container .main-top-container .about-content-main-top .contact-content a.gmail-button {
+    background-color: #EA4335;
+}
+.main-container .main-top-container .about-content-main-top .contact-content a.github-button {
+    background-color: #181717;
+}
+
+.main-container .main-top-container .about-content-main-top .short-description-content p i {
+    color: var(--colorIconBasePrimary);
 }
 
 @media (max-width: 860px) {

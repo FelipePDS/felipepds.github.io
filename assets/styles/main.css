@@ -5,16 +5,19 @@
 }
 
 html {
-    --colorBackground: #F0F0F7;
+    --colorBackground: #FFF;
     --colorBackgroundCard: #FFF;
-    --colorTextPrimary: #292931;
+    --colorTextPrimary: #38313f;
+    --colorTextPrimaryLight: #FFF;
+    --colorTitlePrimary: #252229;
+    --colorIconBasePrimary: #43334d;
+    --colorBorderPrimary: #252229;
 
     font-size: 60%;
 }
 
 body {
     background-color: var(--colorBackground);
-    color: var(--colorTextPrimary);
     font-size: 140%;
     display: flex;
     align-items: center;
@@ -24,17 +27,22 @@ body {
 html,
 body {
     height: 100vh;
+    color: var(--colorTextPrimary);
 }
 
 body,
 input,
-button,
-textarea,
-select {
+button {
     font-weight: 500;
     font-family: Poppins;
     font-size: 1.6rem;
-    color: var(--colorTextBase);
+    color: var(--colorTextPrimary);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--colorTitlePrimary);
 }
 
 @media (min-width: 700px) {
