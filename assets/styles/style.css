@@ -70,6 +70,21 @@ html, body {
 }
 
 /* SKILLS CONTAINER */
-.main-container .skills-container {
-    
+.main-container .skills-container .skills-description-content {
+    margin-bottom: 3rem;
+}
+
+.main-container .skills-container .technologies-content img+img {
+    margin-left: .8rem;
+}
+
+@media (max-width: 860px) {
+    .main-container .skills-container .technologies-content img {
+        height: 28px;
+    }
+
+    .main-container .skills-container .technologies-content img+img {
+        margin-left: 0;
+        margin-top: .8rem;
+    }
 }
