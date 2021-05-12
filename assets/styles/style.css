@@ -103,8 +103,16 @@ html, body {
     border-radius: .8rem;
 }
 
+.main-container .projects-content .project {
+    padding: 1rem;
+}
+
 .main-container .projects-content .project .project-preview-image {
     
+}
+
+.main-container .projects-content .project .project-preview-image img {
+    width: 100%;
 }
 
 .main-container .projects-content .project .project-description {
