@@ -8,6 +8,8 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
@@ -72,16 +74,16 @@
             <h2 class="title-container">🎯 Habilidades e Tecnologias</h2>
 
             <div class="skills-description-content text-align-center standard-margin">
-                <p>Desenvolvedor Frontend e Backend (Fullstack) totalmente focado em <b>Javascript</b>, mas com pequena experiência em PHP e Java:</p>
+                <p>Desenvolvedor Frontend e Backend totalmente focado em <b>Javascript</b>, mas com pequena experiência em PHP e Java:</p>
             </div>
 
-            <div class="technologies-content row column-mobile center">
-                <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> 
-                <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/> 
-                <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/> 
-                <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
-                <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
-                <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+            <div class="technologies-content row center">
+                <img src="assets/images/icons/javascript.svg" title="Javascript"/> 
+                <img src="assets/images/icons/typescript.svg" title="Typescript"/> 
+                <img src="assets/images/icons/node-dot-js.svg" title="Node.js"/> 
+                <img src="assets/images/icons/react.svg" title="React"/> 
+                <img src="assets/images/icons/git.svg" title="Git"/> 
+                <img src="assets/images/icons/mongodb.svg" title="Mongodb"/>
             </div>
         </div>
 
@@ -96,19 +98,19 @@
                 </div>
 
                 <div class="about-me-topic formation-topic standard-margin">
-                    <h4 class="title-container text-align-center">🎓 Formação</h4>
+                    <h4 class="title-container text-align-center">Formação</h4>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti maxime atque molestiae asperiores blanditiis dolor quibusdam harum, obcaecati dicta, corporis minima architecto nobis! Eveniet soluta expedita ipsam nobis! Dolore.</p>
                 </div>
 
                 <div class="about-me-topic knowledge-topic standard-margin">
-                    <h4 class="title-container text-align-center">📘 Conhecimento</h4>
+                    <h4 class="title-container text-align-center">Conhecimento</h4>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda modi ipsum est, cupiditate delectus rem aliquid blanditiis dolore necessitatibus. Sequi magnam est totam debitis, officiis voluptate impedit optio quam aperiam?</p>
                 </div>
 
                 <div class="about-me-topic objective-topic standard-margin">
-                    <h4 class="title-container text-align-center">🚀 Objetivo</h4>
+                    <h4 class="title-container text-align-center">Objetivo</h4>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolor illo quo nulla ullam beatae! Illum, quas. Laudantium ad voluptate consequatur itaque quas dolorem, adipisci dolor quod, debitis, explicabo accusamus?</p>
                 </div>
@@ -124,9 +126,9 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sit distinctio suscipit, numquam, repellendus architecto aliquid mollitia nesciunt officiis cumque aut placeat deserunt quos beatae corporis nihil ut voluptatibus. Eum! <a href="projects.html">Ver Todos</a></p>
             </div>
 
-            <div class="projects-content standard-margin center row column-mobile">
+            <div class="projects-content carousel standard-margin center row column-mobile">
                 <div class="project">
-                    <div class="project-preview-image">
+                    <div class="project-preview-image center">
                         <img src="https://github.com/FelipePDS/NextLevelWeek-proffy/raw/master/public/images/proffy.png" alt="">
                     </div>
 
@@ -134,7 +136,16 @@
                         <p class="text-align-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus maxime distinctio vel autem aperiam nisi nemo ea!</p>
                     </div>
                 </div>
-            </div>
+
+                <div class="project">
+                    <div class="project-preview-image center">
+                        <img src="https://github.com/FelipePDS/Snake-Game.github.io/raw/master/assets/git/preview-game.gif" alt="">
+                    </div>
+
+                    <div class="project-description">
+                        <p class="text-align-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus maxime distinctio vel autem aperiam nisi nemo ea!</p>
+                    </div>
+                </div>
         </div>
 
         <div class="separate-container container"></div>
@@ -144,10 +155,6 @@
 
             <p class="standard-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, eaque. Officiis eaque ad, ratione, exercitationem enim cumque saepe commodi perspiciatis impedit velit et nostrum repudiandae ullam itaque quibusdam ab corrupti.</p>
         </div>
-
-        <footer class="footer-container container">
-            <!-- LAST COMMIT DESTE PORTFÓLIO | STARTS | FOLOWERS | COMMITS | CONTATE (COM BOTÃO PARA VOLTAR PARA CIMA)-->
-        </footer>
     </div>
 
     <!-- SCRIPTS -->
@@ -157,6 +164,20 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+    <script>
+        $('.carousel').slick({
+            dots: true,
+            infinite: true,
+            speed: 400,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        });
     </script>
 </body>
 </html>

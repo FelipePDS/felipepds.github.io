@@ -7,9 +7,11 @@
 html {
     --colorBackground: #FFF;
     --colorBackgroundCard: #FFF;
-    --colorTextPrimary: #38313f;
+    --colorTextPrimary: #18153a;
+    --colorTextSecondary: #f2eff5;
     --colorTextPrimaryLight: #FFF;
-    --colorTitlePrimary: #252229;
+    --colorTitlePrimary: #18153a;
+    --colorBackgroundButton: #2b2730;
     --colorIconBasePrimary: #43334d;
     --colorBorderPrimary: #252229;
     --colorScrollbarLighter: #c2c1c4;
@@ -43,7 +45,8 @@ button {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     color: var(--colorTitlePrimary);
 }
 
