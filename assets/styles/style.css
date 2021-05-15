@@ -28,19 +28,6 @@ html, body {
     font-size: 2.6rem;
 }
 
-.main-container .main-top-container .about-content-main-top .contact-content a {
-    padding: 1rem 1.5rem;
-    border-radius: 1rem;
-
-    color: var(--colorTextSecondary);
-
-    transition: .3s;
-}
-
-.main-container .main-top-container .about-content-main-top .contact-content a:hover {
-    border-radius: 1.5rem;
-}
-
 .main-container .main-top-container .about-content-main-top .contact-content a+a {
     margin-left: 1rem;
 }
@@ -93,8 +80,8 @@ html, body {
 }
 
 /* ABOUT ME CONTAINER */
-.main-container .about-me-container .topics-about-me-content .about-me-topic+.about-me-topic {
-    margin-top: 3rem;
+.main-container .about-me-container .competences-topic p+p {
+    margin-top: .5rem;
 }
 
 /* PROJECT CONTAINER */
@@ -105,9 +92,8 @@ html, body {
 
 .main-container .projects-content .project {
     width: 30rem;
-    height: 30rem;
+    height: 35rem;
 
-    /* color: #ddd6e4; */
     border-radius: 1rem;
 }
 
@@ -121,6 +107,7 @@ html, body {
 
 .main-container .projects-content .project .project-preview-image img {
     width: 100%;
+    border-radius: .8rem;
 }
 
 .main-container .projects-content .project .project-description {
@@ -131,4 +118,21 @@ html, body {
 
 .main-container .projects-content .project .project-description p {
     font-weight: 100 !important;
+}
+
+/* FOOTER */
+footer {
+    width: 40%;
+}
+
+footer .back-to-top-button {
+    background-color: #282a36;
+
+    font-size: 10px;
+}
+
+@media (max-width: 650px) {
+    footer {
+        width: 80%;
+    }
 }

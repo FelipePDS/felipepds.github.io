@@ -12,12 +12,17 @@ html {
     --colorTextPrimaryLight: #FFF;
     --colorTitlePrimary: #18153a;
     --colorBackgroundButton: #2b2730;
+    --colorBlockquote: #231e50;
     --colorIconBasePrimary: #43334d;
     --colorBorderPrimary: #252229;
     --colorScrollbarLighter: #c2c1c4;
     --colorScrollbarDarker: #9d96a3;
+    --colorLinkButton: #9a66ee;
+    --colorBackgroundLinkButton: #7340c418;
 
     font-size: 60%;
+
+    scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +55,17 @@ h4 {
     color: var(--colorTitlePrimary);
 }
 
+a {
+    text-decoration: none;
+    font-weight: 550;
+
+    color: #282377;
+}
+
+blockquote {
+    color: var(--colorBlockquote);
+}
+
 @media (min-width: 700px) {
     :root {
         font-size: 62.5%;
@@ -71,6 +87,11 @@ h4 {
 .justify-content-center {
     display: flex;
     justify-content: center;
+}
+
+.justify-content-between {
+    display: flex;
+    justify-content: space-between;
 }
 
 .align-items-center {
@@ -96,6 +117,13 @@ h4 {
     padding: .7rem;
 }
 
+.separate-container {
+    margin: 4rem 0 4rem 0;
+    width: 80%;
+    height: 0;
+    border: 1px solid rgba(0, 0, 0, 0.100);
+}
+
 .text-align-center {
     text-align: center;
 }
@@ -104,11 +132,33 @@ h4 {
     margin-bottom: .5rem;
 }
 
-.separate-container {
-    margin: 4rem 0 4rem 0;
-    width: 80%;
-    height: 0;
-    border: 1px solid rgba(0, 0, 0, 0.100);
+.subtitle-topic+.subtitle-topic {
+    margin-top: 3rem;
+}
+
+.link-button {
+    padding: 2px;
+
+    border: 1px solid var(--colorLinkButton);
+    border-radius: .8rem;
+
+    font-size: 80%;
+
+    background-color: var(--colorBackgroundLinkButton);
+    color: var(--colorLinkButton);
+}
+
+.square-button {
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+
+    color: var(--colorTextSecondary);
+
+    transition: .3s;
+}
+
+.square-button:hover {
+    border-radius: 1.5rem;
 }
 
 @media (max-width: 860px) {
