@@ -1,6 +1,6 @@
 # <h1 align="center">FelipePDS</h1>
 
-<p align="center"><img src="https://img.shields.io/github/last-commit/FelipePDS/felipepds.github.io"></p> 
+<p align="center"><img src="https://img.shields.io/github/last-commit/FelipePDS/felipepds.github.io?style=for-the-badge"></p> 
 
 <p align="center">My website for github about programming :rocket:</p>
 
