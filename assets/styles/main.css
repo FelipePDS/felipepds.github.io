@@ -234,6 +234,8 @@ blockquote {
 .tooltip-bottom:hover span,
 .tooltip-top:hover span {
 	visibility: visible;
+
+	animation: expand-box .1s ease;
 }
 
 .tooltip-bottom span:after,
@@ -258,6 +260,18 @@ blockquote {
 	border-top: 8px solid var(--colorBackgroundDarker);
 	border-right: 8px solid transparent;
 	border-left: 8px solid transparent;
+}
+
+@keyframes expand-box {
+	from {
+		padding: .35rem;
+		font-size: 12px;
+	}
+
+	to {
+		padding: .5rem;
+		font-size: 14px;
+	}
 }
 
 ::-webkit-scrollbar-track {
