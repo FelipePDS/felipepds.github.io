@@ -1,147 +1,143 @@
 html, body {
-    height: auto;
-    padding: 2rem 0;
+	height: auto;
+	padding: 2rem 0;
 }
 
 .main-container {
-    max-width: 72rem;
+	max-width: 72rem;
 }
 
 /* MAIN TOP CONTAINER */
 .main-container .main-top-container {
-    width: 100%;
+	width: 100%;
 }
 
-.main-container .main-top-container .avatar-content {
-    margin-right: 3rem;
+.main-container .main-top-container .profile-content {
+	margin-right: 3rem;
 }
 
-.main-container .main-top-container .avatar-content img {
-    margin-bottom: 1.5rem;
+.main-container .main-top-container .profile-content img {
+	margin-bottom: 1.5rem;
 
-    border: 1px var(--colorBorderPrimary) solid;
-    border-radius: 50%;
+	border: 1px var(--colorBorderPrimary) solid;
+	border-radius: 50%;
 }
 
-.main-container .main-top-container .avatar-content h1 {
-    font-weight: 600;
-    font-size: 2.6rem;
+.main-container .main-top-container .profile-content h1 {
+	font-weight: 600;
+	font-size: 2.6rem;
 }
 
 .main-container .main-top-container .about-content-main-top .contact-content a+a {
-    margin-left: 1rem;
+	margin-left: 1rem;
 }
 
 .main-container .main-top-container .about-content-main-top .contact-content a.linkedin-button {
-    background-color: #0A66C2;
+	background-color: #0A66C2;
 }
 .main-container .main-top-container .about-content-main-top .contact-content a.twitter-button {
-    background-color: #1DA1F2;
+	background-color: #1DA1F2;
 }
 .main-container .main-top-container .about-content-main-top .contact-content a.gmail-button {
-    background-color: #EA4335;
+	background-color: #EA4335;
 }
 .main-container .main-top-container .about-content-main-top .contact-content a.github-button {
-    background-color: #181717;
+	background-color: #181717;
 }
 
 .main-container .main-top-container .about-content-main-top .short-description-content p i {
-    color: var(--colorIconBasePrimary);
+	color: var(--colorIconBasePrimary);
 }
 
 @media (max-width: 860px) {
-    .main-container .main-top-container .avatar-content {
-        margin-right: 0;
-    }
+	.main-container .main-top-container .profile-content {
+		margin-right: 0;
+	}
 }
 
 /* CONTACT CONTAINER */
 .main-container .contact-container .contact-content {
-    gap: .5rem;
+	gap: .5rem;
 }
 
 .main-container .contact-container .contact-content i {
-    color: var(--colorIconPrimary);
+	color: var(--colorIconPrimary);
 }
 
 /* SKILLS CONTAINER */
 .main-container .skills-container .skills-description-content {
-    margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 .main-container .skills-container .technologies-content {
-    padding: 1rem;
-    border-radius: .5rem;
-    background-color: #282a36;
+	padding: 1rem;
+	border-radius: .5rem;
+	background-color: var(--colorBackgroundDarker);
 }
 
-.main-container .skills-container .technologies-content img {
-    width: 28px;
-    border-radius: .2rem;
+.main-container .skills-container .technologies-content .technologie img {
+	width: 28px;
+	border-radius: .2rem;
 }
 
-.main-container .skills-container .technologies-content img+img {
-    margin-left: 1rem;
-}
-
-.main-container .skills-container .technologies-content img:last-child {
-    margin-left: .4rem;
+.main-container .skills-container .technologies-content .technologie+.technologie {
+	margin-left: 1rem;
 }
 
 /* ABOUT ME CONTAINER */
 .main-container .about-me-container .competences-topic p+p {
-    margin-top: .5rem;
+	margin-top: .5rem;
 }
 
 /* PROJECT CONTAINER */
 .main-container .projects-content {
-    width: 30rem;
-    height: 30rem;
+	width: 30rem;
+	height: 30rem;
 }
 
 .main-container .projects-content .project {
-    width: 30rem;
-    height: 35rem;
+	width: 30rem;
+	height: 35rem;
 
-    border-radius: 1rem;
+	border-radius: 1rem;
 }
 
 .main-container .projects-content .project .project-preview-image {
-    padding: 1rem;
-    border-radius: 1rem 1rem 0 0;
-    border-bottom: 1px solid #e5dfeb41;
+	padding: 1rem;
+	border-radius: 1rem 1rem 0 0;
+	border-bottom: 1px solid #e5dfeb41;
 
-    height: 17rem;
+	height: 17rem;
 }
 
 .main-container .projects-content .project .project-preview-image img {
-    width: 100%;
-    border-radius: .8rem;
+	width: 100%;
+	border-radius: .8rem;
 }
 
 .main-container .projects-content .project .project-description {
-    border-radius: 0 0 1rem 1rem;
+	border-radius: 0 0 1rem 1rem;
 
-    padding: 1rem;
+	padding: 1rem;
 }
 
 .main-container .projects-content .project .project-description p {
-    font-weight: 100 !important;
+	font-weight: 100 !important;
 }
 
 /* FOOTER */
 footer {
-    width: 40%;
+	width: 40%;
 }
 
 footer .back-to-top-button {
-    background-color: #282a36;
+	background-color: #282a36;
 
-    font-size: 10px;
+	font-size: 10px;
 }
 
 @media (max-width: 650px) {
-    footer {
-        width: 80%;
-    }
+	footer {
+		width: 80%;
+	}
 }
