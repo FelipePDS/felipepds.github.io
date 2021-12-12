@@ -60,15 +60,15 @@ h4 {
 a {
 	text-decoration: none;
 	font-weight: 510;
+	text-decoration: underline;
 
-	color: var(--colorTextPrimary);
-	border-bottom: 2px solid #7871b970;
+	color: #2b1f55;
 
 	transition: ease .2s;
 }
 
 a:hover {
-	border-bottom: 2px solid #7871b9;
+	color: #673db6;
 }
 
 blockquote {
@@ -135,6 +135,10 @@ blockquote {
 	width: 80%;
 	height: 0;
 	border: 1px solid rgba(0, 0, 0, 0.100);
+}
+
+.text {
+	text-indent: 4.5rem;
 }
 
 .text-align-center {
