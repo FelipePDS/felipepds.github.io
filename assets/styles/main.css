@@ -197,6 +197,11 @@ blockquote {
 	}
 }
 
+/* EMBEDED LIST */
+.embeded-list span+span {
+	margin: 0 .4rem;
+}
+
 /* TOOLTIP */
 .tooltip-bottom,
 .tooltip-top {

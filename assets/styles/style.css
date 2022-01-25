@@ -32,6 +32,10 @@ html, body {
 	margin-left: 1rem;
 }
 
+.main-container .main-top-container .about-content-main-top .contact-content a:hover {
+	color: var(--colorTextSecondary) !important;
+}
+
 .main-container .main-top-container .about-content-main-top .contact-content a.linkedin-button {
 	background-color: #0A66C2;
 }
